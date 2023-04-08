@@ -1,5 +1,7 @@
 <p align="center"> ERP PROJECT</p>
 
+---
+
 <p align="center">This project simulates an application that runs the main tools of an erp on android: </p>
 
 <p align="center">1) LOGIN: </p>
