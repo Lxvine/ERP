@@ -1,4 +1,4 @@
-<h2 align="center">  ERP PROJECT</h2>
+<h2 align="center">ERP ANDROID PROJECT</h2>
 
 <p align="center">This project simulates an application that runs the main tools of an erp on android: </p>
 
