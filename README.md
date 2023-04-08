@@ -57,17 +57,17 @@
 <p align="center">9) MAIL OPTIONS MENU: </p>
 
 <p align="center">
-  <img src="https://github.com/Lxvine/ERP/blob/master/Screenshots/erp8.png" style=" width:300px">
+  <img src="https://github.com/Lxvine/ERP/blob/master/Screenshots/erp9.png" style=" width:300px">
 </p>
 
 <p align="center">10) MAIL OPTIONS MENU: </p>
 
 <p align="center">
-  <img src="https://github.com/Lxvine/ERP/blob/master/Screenshots/erp8.png" style=" width:300px">
+  <img src="https://github.com/Lxvine/ERP/blob/master/Screenshots/erp10.png" style=" width:300px">
 </p>
 
 <p align="center">11) MAIL OPTIONS MENU: </p>
 
 <p align="center">
-  <img src="https://github.com/Lxvine/ERP/blob/master/Screenshots/erp8.png" style=" width:300px">
+  <img src="https://github.com/Lxvine/ERP/blob/master/Screenshots/erp11.png" style=" width:300px">
 </p>
