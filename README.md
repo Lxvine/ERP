@@ -1,4 +1,4 @@
-<p align="center"> ### ERP PROJECT</p>
+<h2 align="center">  ERP PROJECT</h2>
 
 ---
 
