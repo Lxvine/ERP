@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3F51B5"
+    tools:context=".app.LoggedActivity">
+
+    <ImageView
+        android:id="@+id/imageViewBack"
+        android:layout_width="365dp"
+        android:layout_height="696dp"
+        android:background="@drawable/yellowborder"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.485"
+        app:srcCompat="@drawable/yellow"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/imageViewContabilidad"
+        android:layout_width="78dp"
+        android:layout_height="70dp"
+        android:background="@drawable/blueborder"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewBack"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewBack"
+        app:layout_constraintHorizontal_bias="0.219"
+        app:layout_constraintStart_toStartOf="@+id/imageViewBack"
+        app:layout_constraintTop_toTopOf="@+id/imageViewBack"
+        app:layout_constraintVertical_bias="0.052"
+        app:srcCompat="@drawable/money"
+        tools:ignore="ContentDescription" />
+
+    <Button
+        android:id="@+id/accountingButton"
+        android:layout_width="148dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#3F51B5"
+        android:text="accounting"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewContabilidad"
+        app:layout_constraintHorizontal_bias="0.552"
+        app:layout_constraintStart_toStartOf="@+id/imageViewContabilidad"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewContabilidad"
+        app:layout_constraintVertical_bias="0.014"
+        tools:ignore="HardcodedText" />
+
+    <ImageView
+        android:id="@+id/imageViewClients"
+        android:layout_width="78dp"
+        android:layout_height="70dp"
+        android:background="@drawable/blueborder"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewBack"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewBack"
+        app:layout_constraintHorizontal_bias="0.808"
+        app:layout_constraintStart_toStartOf="@+id/imageViewBack"
+        app:layout_constraintTop_toTopOf="@+id/imageViewBack"
+        app:layout_constraintVertical_bias="0.052"
+        app:srcCompat="@drawable/profile"
+        tools:ignore="ContentDescription" />
+
+    <Button
+        android:id="@+id/clientsButton"
+        android:layout_width="148dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#3F51B5"
+        android:text="clients"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewClients"
+        app:layout_constraintStart_toStartOf="@+id/imageViewClients"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewClients"
+        app:layout_constraintVertical_bias="0.014"
+        tools:ignore="HardcodedText" />
+
+    <ImageView
+        android:id="@+id/imageViewProveedores"
+        android:layout_width="78dp"
+        android:layout_height="70dp"
+        android:background="@drawable/blueborder"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewBack"
+        app:layout_constraintEnd_toEndOf="@+id/accountingButton"
+        app:layout_constraintHorizontal_bias="0.552"
+        app:layout_constraintStart_toStartOf="@+id/accountingButton"
+        app:layout_constraintTop_toBottomOf="@+id/accountingButton"
+        app:layout_constraintVertical_bias="0.058"
+        app:srcCompat="@drawable/proveedores"
+        tools:ignore="ContentDescription" />
+
+    <Button
+        android:id="@+id/providersButton"
+        android:layout_width="148dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#3F51B5"
+        android:text="providers"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewProveedores"
+        app:layout_constraintHorizontal_bias="0.552"
+        app:layout_constraintStart_toStartOf="@+id/imageViewProveedores"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewProveedores"
+        app:layout_constraintVertical_bias="0.036"
+        tools:ignore="HardcodedText" />
+
+    <ImageView
+        android:id="@+id/imageViewMail"
+        android:layout_width="78dp"
+        android:layout_height="70dp"
+        android:background="@drawable/blueborder"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewBack"
+        app:layout_constraintEnd_toEndOf="@+id/clientsButton"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="@+id/clientsButton"
+        app:layout_constraintTop_toBottomOf="@+id/clientsButton"
+        app:layout_constraintVertical_bias="0.056"
+        app:srcCompat="@drawable/mailmain"
+        tools:ignore="ContentDescription" />
+
+    <Button
+        android:id="@+id/mailButton"
+        android:layout_width="148dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#3F51B5"
+        android:text="mail"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewMail"
+        app:layout_constraintStart_toStartOf="@+id/imageViewMail"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewMail"
+        app:layout_constraintVertical_bias="0.038"
+        tools:ignore="HardcodedText" />
+
+    <ImageView
+        android:id="@+id/imageViewHR"
+        android:layout_width="78dp"
+        android:layout_height="70dp"
+        android:background="@drawable/blueborder"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewBack"
+        app:layout_constraintEnd_toEndOf="@+id/providersButton"
+        app:layout_constraintHorizontal_bias="0.552"
+        app:layout_constraintStart_toStartOf="@+id/providersButton"
+        app:layout_constraintTop_toBottomOf="@+id/providersButton"
+        app:layout_constraintVertical_bias="0.089"
+        app:srcCompat="@drawable/rrhh"
+        tools:ignore="ContentDescription" />
+
+    <Button
+        android:id="@+id/hrButton"
+        android:layout_width="148dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#3F51B5"
+        android:text="hr"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewHR"
+        app:layout_constraintHorizontal_bias="0.552"
+        app:layout_constraintStart_toStartOf="@+id/imageViewHR"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewHR"
+        app:layout_constraintVertical_bias="0.059"
+        tools:ignore="HardcodedText" />
+
+    <ImageView
+        android:id="@+id/imageViewSettings"
+        android:layout_width="78dp"
+        android:layout_height="70dp"
+        android:background="@drawable/blueborder"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewBack"
+        app:layout_constraintEnd_toEndOf="@+id/mailButton"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="@+id/mailButton"
+        app:layout_constraintTop_toBottomOf="@+id/mailButton"
+        app:layout_constraintVertical_bias="0.089"
+        app:srcCompat="@drawable/ajustes"
+        tools:ignore="ContentDescription" />
+
+    <Button
+        android:id="@+id/settingsButton"
+        android:layout_width="148dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#3F51B5"
+        android:text="settings"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewSettings"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="@+id/imageViewSettings"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewSettings"
+        app:layout_constraintVertical_bias="0.059"
+        tools:ignore="HardcodedText" />
+
+    <ImageView
+        android:id="@+id/imageViewLogin"
+        android:layout_width="78dp"
+        android:layout_height="70dp"
+        android:background="@drawable/blueborder"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewBack"
+        app:layout_constraintEnd_toEndOf="@+id/hrButton"
+        app:layout_constraintHorizontal_bias="0.552"
+        app:layout_constraintStart_toStartOf="@+id/hrButton"
+        app:layout_constraintTop_toBottomOf="@+id/hrButton"
+        app:layout_constraintVertical_bias="0.229"
+        app:srcCompat="@drawable/loginmain"
+        tools:ignore="ContentDescription" />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="148dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#3F51B5"
+        android:text="LOGOUT"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewBack"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewLogin"
+        app:layout_constraintHorizontal_bias="0.557"
+        app:layout_constraintStart_toStartOf="@+id/imageViewLogin"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewLogin"
+        app:layout_constraintVertical_bias="0.4"
+        tools:ignore="HardcodedText" />
+
+    <ImageView
+        android:id="@+id/imageViewExit"
+        android:layout_width="78dp"
+        android:layout_height="70dp"
+        android:background="@drawable/blueborder"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewBack"
+        app:layout_constraintEnd_toEndOf="@+id/settingsButton"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="@+id/settingsButton"
+        app:layout_constraintTop_toBottomOf="@+id/hrButton"
+        app:layout_constraintVertical_bias="0.229"
+        app:srcCompat="@drawable/exit"
+        tools:ignore="ContentDescription" />
+
+    <Button
+        android:id="@+id/exitButton"
+        android:layout_width="148dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#3F51B5"
+        android:text="EXIT"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewBack"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewExit"
+        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintStart_toStartOf="@+id/imageViewExit"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewExit"
+        app:layout_constraintVertical_bias="0.4"
+        tools:ignore="HardcodedText" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

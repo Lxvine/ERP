@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">ERP</string>
+
+    <string-array name="Options">
+        <item>Choose an option...</item>
+        <item>Add...</item>
+        <item>Delete...</item>
+        <item>Back...</item>
+    </string-array>
+
+    <string-array name="Sended">
+        <item>Choose an option...</item>
+        <item>Send...</item>
+        <item>Delete...</item>
+        <item>Back...</item>
+    </string-array>
+
+    <string-array name="Received">
+        <item>Choose an option...</item>
+        <item>Delete...</item>
+        <item>Back...</item>
+    </string-array>
+
+
+</resources>

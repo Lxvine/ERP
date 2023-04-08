@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ERP"
+        tools:targetApi="31">
+        <activity
+            android:name=".settings.SettingsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".hr.HRActivity"
+            android:exported="false" />
+        <activity
+            android:name=".app.ExitActivity"
+            android:exported="false" />
+        <activity
+            android:name=".mail.sent.AddSentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".mail.sent.UpdateSentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".mail.sent.SentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".mail.received.UpdateReceivedActivity"
+            android:exported="false" />
+        <activity
+            android:name=".mail.received.ReceivedActivity"
+            android:exported="false" />
+        <activity
+            android:name=".mail.MailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".providers.UpdateProviderActivity"
+            android:exported="false" />
+        <activity
+            android:name=".providers.ProviderActivity"
+            android:exported="false" />
+        <activity
+            android:name=".providers.AddProviderActivity"
+            android:exported="false" />
+        <activity
+            android:name=".accounting.Accounting"
+            android:exported="false" />
+        <activity
+            android:name=".accounting.AccountingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".accounting.AccountingRVAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".accounting.AddAccountingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".accounting.UpdateAccountingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".client.AddClientActivity"
+            android:exported="false" />
+        <activity
+            android:name=".client.Client"
+            android:exported="false" />
+        <activity
+            android:name=".client.ClientActivity"
+            android:exported="false" />
+        <activity
+            android:name=".client.ClientRVAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".client.UpdateClientActivity"
+            android:exported="false" />
+        <activity
+            android:name=".app.LoggedActivity"
+            android:exported="false" />
+        <activity
+            android:name=".app.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".app.SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

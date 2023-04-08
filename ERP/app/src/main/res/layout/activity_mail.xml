@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mail.MailActivity"
+    android:background="#3F51B5">
+
+    <ImageView
+        android:id="@+id/imageViewBack"
+        android:layout_width="341dp"
+        android:layout_height="349dp"
+        android:background="@drawable/yellowborder"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.485"
+        app:srcCompat="@drawable/yellow"
+        tools:ignore="ContentDescription" />
+
+
+    <ImageView
+        android:id="@+id/imageViewSend"
+        android:layout_width="78dp"
+        android:layout_height="70dp"
+        android:background="@drawable/blueborder"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewBack"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewBack"
+        app:layout_constraintHorizontal_bias="0.228"
+        app:layout_constraintStart_toStartOf="@+id/imageViewBack"
+        app:layout_constraintTop_toTopOf="@+id/imageViewBack"
+        app:layout_constraintVertical_bias="0.369"
+        app:srcCompat="@drawable/received"
+        tools:ignore="ContentDescription" />
+
+    <Button
+        android:id="@+id/receivedButton"
+        android:layout_width="108dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#3F51B5"
+        android:text="received"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewSend"
+        app:layout_constraintHorizontal_bias="0.566"
+        app:layout_constraintStart_toStartOf="@+id/imageViewSend"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewSend"
+        app:layout_constraintVertical_bias="0.051"
+        tools:ignore="HardcodedText" />
+
+    <ImageView
+        android:id="@+id/imageViewReceived"
+        android:layout_width="78dp"
+        android:layout_height="70dp"
+        android:background="@drawable/blueborder"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewBack"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewBack"
+        app:layout_constraintHorizontal_bias="0.802"
+        app:layout_constraintStart_toStartOf="@+id/imageViewBack"
+        app:layout_constraintTop_toTopOf="@+id/imageViewBack"
+        app:layout_constraintVertical_bias="0.369"
+        app:srcCompat="@drawable/sent"
+        tools:ignore="ContentDescription" />
+
+    <Button
+        android:id="@+id/sentButton"
+        android:layout_width="108dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#3F51B5"
+        android:text="sent"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewReceived"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="@+id/imageViewReceived"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewReceived"
+        app:layout_constraintVertical_bias="0.051"
+        tools:ignore="HardcodedText" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

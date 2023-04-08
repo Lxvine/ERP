@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3F51B5"
+    tools:context=".mail.received.ReceivedActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="366dp"
+        android:layout_height="65dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        android:background="@drawable/yellowborder"
+        android:minHeight="?attr/actionBarSize"
+        tools:ignore="InefficientWeight,MissingConstraints,ObsoleteLayoutParam,RtlHardcoded">
+
+        <Button
+            android:id="@+id/clientsButtonModify"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:backgroundTint="#163050"
+            android:text="RECEIVED MAILS"
+            android:textColor="#FFC107"
+            android:textSize="16dp"
+            tools:ignore="HardcodedText,SpUsage" />
+
+        <Spinner
+            android:id="@+id/spinnerReceived"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#163050"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/idRVReceived"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100dp" />
+
+
+</RelativeLayout>
