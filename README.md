@@ -16,7 +16,7 @@
   <img src="https://github.com/Lxvine/ERP/blob/master/Screenshots/erp2.png" style=" width:300px">
 </p>
 
-<p align="center">3) MOVEMENTS OPTION: </p>
+<p align="center">3) MOVEMENTS MENU: </p>
 
 <p align="center">
   <img src="https://github.com/Lxvine/ERP/blob/master/Screenshots/erp3.png" style=" width:300px">
@@ -32,4 +32,22 @@
 
 <p align="center">
   <img src="https://github.com/Lxvine/ERP/blob/master/Screenshots/erp5.png" style=" width:300px">
+</p>
+
+<p align="center">6) UPDATE OR DELETE MOVEMENTS: </p>
+
+<p align="center">
+  <img src="https://github.com/Lxvine/ERP/blob/master/Screenshots/erp6.png" style=" width:300px">
+</p>
+
+<p align="center">7) UPDATE OR DELETE MOVEMENTS: </p>
+
+<p align="center">
+  <img src="https://github.com/Lxvine/ERP/blob/master/Screenshots/erp7.png" style=" width:300px">
+</p>
+
+<p align="center">8) UPDATE OR DELETE MOVEMENTS: </p>
+
+<p align="center">
+  <img src="https://github.com/Lxvine/ERP/blob/master/Screenshots/erp8.png" style=" width:300px">
 </p>
