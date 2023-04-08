@@ -35,14 +35,14 @@
 </p>
 
 <p align="center">6) CLIENTS MENU: </p>
-<p align="center">Also has add client option and update or delete client option. </p>
-
+<p align="center">Also has "add client" option and "update or delete client" option. </p>
 
 <p align="center">
   <img src="https://github.com/Lxvine/ERP/blob/master/Screenshots/erp6.png" style=" width:300px">
 </p>
 
 <p align="center">7) PROVIDERS MENU: </p>
+<p align="center">Also has "add provider" option and "update or delete provider" option. </p>
 
 <p align="center">
   <img src="https://github.com/Lxvine/ERP/blob/master/Screenshots/erp7.png" style=" width:300px">
